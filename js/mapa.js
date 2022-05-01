@@ -5,9 +5,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
 }).addTo(map);
 var coords = null;
 document.getElementById('select-location').addEventListener('change',function(e){
+    var coordsA;
+    if (coordsA !=null) {
+        map.removeLayer(coordsA);
+    };
     coords = e.target.value.split(",");
     
     map.flyTo(coords,15);
     L.marker(coords).addTo(map);
+    coordsA = coords;
   })
 
