@@ -1,6 +1,6 @@
 <?php
 
-require './model/conexion.php';
+require_once './model/conexion.php';
 
 if(!empty($_POST['email']) && !empty($_POST['password'])){
   $records = $conn->prepare('SELECT id, email, password FROM users WHERE email=:email');

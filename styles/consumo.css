@@ -1,0 +1,22 @@
+#canvas{
+    width: 75%;
+}
+
+
+#seleccionCampus{
+    margin-top: 25px;
+    display: inline-block;
+    background: white;
+    border: 1px solid #1b365d;
+    color: #1b365d;
+    margin-right: .5em;
+}
+#boton{
+    margin-top: 25px;
+    display: inline-block;
+    background: #1b365d;
+    border: 1px solid #1b365d;
+    padding: .5em 2em;
+    color: white;
+    margin-right: .5em;
+}

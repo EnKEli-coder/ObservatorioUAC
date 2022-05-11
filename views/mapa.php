@@ -12,7 +12,7 @@
     <div id = "der">
 	<form>
 	<label for="campus">Campus</label>
-    <select name="campus" class="options">
+    <select name="campus" class="options" id="select-location">
 		<option value="-1">Campus:</option>
 		<option value="19.8458842,-90.4796041">Facultad de ingenieria</option>
 		<option value="19.8479988,-90.4772787">Facultad de Ciencias Quimico Biologicas</option>	
