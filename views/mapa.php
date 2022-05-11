@@ -10,13 +10,32 @@
 	</div>
     
     <div id = "der">
-    <select name="select-location" id="select-location">
-		<option value="-1">Seleccione un lugar:</option>
+	<form>
+	<label for="campus">Campus</label>
+    <select name="campus" class="options">
+		<option value="-1">Campus:</option>
 		<option value="19.8458842,-90.4796041">Facultad de ingenieria</option>
 		<option value="19.8479988,-90.4772787">Facultad de Ciencias Quimico Biologicas</option>	
 		<option value="19.8280552,-90.5545804">Universidad Autonoma de campeche</option>
 		<option value="19.8184557,-90.5306849">Facultad de medicina</option>			
 	</select>
+	<br>
+	<label for="tipoAgua">Tipo de Agua</label>
+	<select class="options">
+		
+	</select>
+	<br>
+	<label for="usoAgua">Uso del Agua</label>
+	<select class="options">
+		
+	</select>
+	<br>
+	<label for="etapaSistema">Etapa del sistema</label>
+	<select class="options">
+		
+	</select>
+	<br>
+	</form>
     </div>
 </div>
 
