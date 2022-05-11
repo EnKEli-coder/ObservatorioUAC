@@ -1,9 +1,14 @@
 <?php
     //Conexión a la base de datos
-    $mysqli = new mysqli("localhost", "root", "", "observatorio");
+    $server = 'localhost';
+    $username = 'root';
+    $password = 'Chocorrol2510@';
+    $database = 'observatorio';
 
-    if(mysqli_connect_errno()) {
-        echo 'Conexión fallida : ', mysqli_connect_errno();
-        exit();
+    try{
+        $conn = new PDO("mysql:host=$server;dbname=$database;",$username,$password);
+
+    }catch (PDOException $e){
+        die('Connected failed; '.$e->getMesssage());
     }
 ?>

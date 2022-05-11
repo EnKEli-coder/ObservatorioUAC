@@ -15,19 +15,21 @@
             break;
 
       case "logout":
-            $session_destroy = session_destroy();
-            
-            header("location: ./index.php?menu=home");
+            require_once('./views/logout.php');
             break;  
+
       case "consumo":
             require_once("./views/consumo.php");
             break;
+
       case "participacion":
             require_once("./views/participacion.php");
              break;
+
       case "administrator":
             require_once("./views/administrator.php");
              break;
+             
       default:
       require_once('./views/mapa.php');
       }
