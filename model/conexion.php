@@ -15,7 +15,7 @@
         }
         function conectar(){
             
-                $this->conexion =  new mysqli($this->servidor,$this->username,$this->password,'observatorio');
+                $this->conexion =  new mysqli("localhost", "root", "","observatorio");
           
         } 
         
@@ -24,7 +24,6 @@
         }
         }
         
-    /*Conexión a la base de datos
     $server = 'localhost';
     $username = 'root';
     $password = '';
@@ -35,5 +34,5 @@
 
     }catch (PDOException $e){
         die('Connected failed; '.$e->getMesssage());
-    }*/
+    }
 ?>

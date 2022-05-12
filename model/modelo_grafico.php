@@ -8,7 +8,7 @@
             }
 
             function TraerDatosGraficoBar(){
-                $sql = "Select * from consumoAgua ";
+                $sql = "Select * from consumoagua ";
                 $arreglo = array();
                 if ($consulta = $this->conexion->conexion->query($sql)){
                     
@@ -22,7 +22,7 @@
                 }
             }
             function TraerDatosGraficoMen(){
-                $sql = "Select * from consumoMensual ";
+                $sql = "Select * from consumomensual ";
                 $arreglo = array();
                 if ($consulta = $this->conexion->conexion->query($sql)){
                     

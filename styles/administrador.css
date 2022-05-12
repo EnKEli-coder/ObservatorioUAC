@@ -1,0 +1,42 @@
+.container-add{
+    width: 90%;
+    margin: 50px auto;
+}
+
+.container__title{
+    margin: 0px;
+    padding: 10px;
+    background: #0b76a6;
+}
+
+.container__form{
+    background: white;
+    box-shadow: 0 0 20px #333;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container__label{
+    font-size: 1.3em;
+    width: 20%;
+}
+
+.container__input{
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    padding: 5px;
+}
+
+.container__submit{
+    background: #0b76a6;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin:15px auto;
+    width: 100;
+    font-size: 1.1em;
+    cursor: pointer;
+}
